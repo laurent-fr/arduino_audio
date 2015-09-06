@@ -4,4 +4,4 @@ This program is designed to test the audio amp for an ARDUINO DUE described here
 
 In the folder readwav, there's a small C program which converts a 16bits signed WAV file into a C header file. You will need libsndfile to compile the program.
 
-This C header can be used in the Arduino progrma audiotest_wav.  
+This C header can be used in the Arduino program audiotest_wav. The WAV file you use must be mono, 22050Hz, 16bits signed.
